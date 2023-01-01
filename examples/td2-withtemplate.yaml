@@ -1,0 +1,15 @@
+apiVersion: topo.yndd.io/v1alpha1
+kind: Definition
+metadata:
+  name: nokia.region1.fabric2
+  namespace: tenant2
+spec:
+  properties:
+    location:
+      latitude: "a"
+      longitude: "b"
+    templates:
+    - templateRef:
+        name: tmpl1
+    - templateRef:
+        name: tmpl2
